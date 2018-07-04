@@ -1,12 +1,5 @@
 ---
 ---
-
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Grace Chinese Lutheran Church</title>
@@ -87,7 +80,7 @@
 								<h2 class="major">Contact</h2>
 								<p>Address: 538 NE 127th St. Seattle, WA 98125<br>
 								Telephone: (206) 362-1888</p>
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1342.044467651188!2d-122.3239315843656!3d47.72152297919243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549011417d99d9ed%3A0x2f173776603a2852!2sGrace+Chinese+Lutheran+Church!5e0!3m2!1sen!2sus!4v1518246124534" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1342.044467651188!2d-122.3239315843656!3d47.72152297919243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549011417d99d9ed%3A0x2f173776603a2852!2sGrace+Chinese+Lutheran+Church!5e0!3m2!1sen!2sus!4v1518246124534" id="myFrame"></iframe>
 								
 							</article>
 						<!-- Elements -->

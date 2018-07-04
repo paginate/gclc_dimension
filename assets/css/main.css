@@ -1592,3 +1592,9 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+		
+/*  IFrame style */
+        #myFrame {
+                width:100%;
+                height:400px;
+        }
