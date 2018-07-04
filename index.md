@@ -16,9 +16,6 @@
 
 				<!-- Header -->
 					<header id="header">
-						<div class="logo">
-							<span class="icon" style="font-size:50px">&#x271D;</span>
-						</div>
 						<div class="content">
 							<div class="inner">
 								<h1>Grace Chinese Lutheran Church</h1>

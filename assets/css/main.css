@@ -140,6 +140,9 @@
 		a:hover {
 			border-bottom-color: transparent;
 		}
+		a:visited{
+                    color:#ffffff;
+                }
 
 	strong, b {
 		color: #ffffff;
