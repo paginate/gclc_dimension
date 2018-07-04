@@ -25,8 +25,9 @@
 						<nav>
 							<ul>
 								<li><a href="#about">About</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#news">News</a></li>
+								<li><a href="#connect">Connect</a></li>
+								<li><a href="#events">Events</a></li>
+								<li><a href="#sermons">Sermons</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -43,33 +44,49 @@
 								<h3>Mission</h3>
 								<p>Led by the Holy Spirit, to gather and worship the triune God.  To grow in faith and obedience to God's Word.  To go and proclaim the Gospel to the world.  For the glory of our heavenly Father.</p>
 								<p></p>
-								<h3>Team</h3>
+								<h3>Pastoral Staff</h3>
 								<p>Pastor Jimmy Hao</p>
 								<p>Pastor Wendy Cheung</p>
 							</article>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
+						<!-- Connect -->
+							<article id="connect">
+								<h2 class="major">Connect</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
 							</article>
 
-						<!-- News -->
-							<article id="news">
-								<h2 class="major">News</h2>
+						<!-- Events -->
+							<article id="events">
+								<h2 class="major">Events</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 								<ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-        <div>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
+                                                                    {% for post in site.categories.event %}
+                                                                    <li>
+                                                                        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+                                                                        <div>
+                                                                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    {% endfor %}
+                                                                </ul>
+							</article>
+							
+                                                <!-- Sermons -->
+							<article id="sermons">
+								<h2 class="major">Sermons</h2>
+								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+								<ul class="post-list">
+                                                                    {% for post in site.categories.sermon %}
+                                                                    <li>
+                                                                        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+                                                                        <div>
+                                                                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    {% endfor %}
+                                                                </ul>
 							</article>
 
 						<!-- Contact -->
