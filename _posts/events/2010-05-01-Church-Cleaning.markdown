@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: post
 title:  (2010-05-20) Church Repair and Re-painting
 date:   2010-05-01 23:04:29 -0400
 category: event
