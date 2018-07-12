@@ -24,9 +24,6 @@
 
 	body {
 		line-height: 1;
-                margin-top: 10px;
-                margin-right: 5%;
-                margin-left: 5%;
 	}
 
 	ol, ul {
@@ -285,6 +282,11 @@
 	.align-right {
 		text-align: right;
 	}
+	
+	.page-content {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
 
 /* Form */
 
