@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Grace Chinese Lutheran Church
 email:
-baseurl: "/gclc_dimension"
+baseurl: ""
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
