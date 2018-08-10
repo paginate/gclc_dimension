@@ -16,6 +16,7 @@
 title: Grace Chinese Lutheran Church
 email:
 baseurl: ""
+#baseurl: "/gclc_dimension"  #this is obsolete when CNAME exist
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
