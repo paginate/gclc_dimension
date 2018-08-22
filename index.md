@@ -2,7 +2,7 @@
 ---
 <html>
 	<head>
-		<title>Grace Chinese Lutheran Church</title>
+		<title>{{site.title}}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,7 +18,7 @@
 					<header id="header">
 						<div class="content">
 							<div class="inner">
-								<h1>Grace Chinese Lutheran Church</h1>
+								<h1>{{site.title}}</h1>
 								<p>Grace, Glory, God</p>
 							</div>
 						</div>
@@ -108,7 +108,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<p class="copyright">&copy; Designed by <a href="https://html5up.net">HTML5 UP</a>.
-						Maintained by Paginate.</p>
+						Maintained by Skrybs.</p>
 					</footer>
 
 			</div>
