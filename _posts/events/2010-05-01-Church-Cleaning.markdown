@@ -12,3 +12,5 @@ We expect your support, participation, offering and prayers.
 We will start with interior painting on 5/1/2010, 5/8/2010, 5/15/2010 (Saturdays). 
 Welcome volunteers to register. 
 The registration forms are on the table of the hall.
+
+<This event is from 8 years ago>
